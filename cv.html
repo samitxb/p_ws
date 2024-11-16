@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cv_styles.css">
 </head>
 <body>
     <header>
@@ -19,9 +19,78 @@
         </nav>
     </header>
     <main>
-        <h1>CV</h1>
-        <p>You can view my CV below:</p>
-        <embed src="documents/doc_resume.pdf" type="application/pdf" width="100%" height="600px" />
+        <div class="cv_introduction">
+        <h1>Curriculum Vitae</h1>
+        <p>You can also have a look at a shortened one paged version of my CV with certificates here to download.</p>
+        <a href="documents/doc_resume.pdf">Download CV</a>
+        </div>
+        <!--embed src="documents/doc_resume.pdf" type="application/pdf" width="100%" height="600px" /-->
+        <section class="cv_section">
+            <h2>Education</h2>
+            <details class="cv_details">
+                <summary>Applied Computer Science M.Sc. <p style="text-align: right;">Since March 2023</p></summary>
+                <div class="cv_details_content">
+                <p>
+                    I am currently pursuing in Applied Computer Science (M.Sc.) at the Deggendorf Institute of Technology.
+                    Throughout my studies, I have gained more experience in Compiler Construction, Theoretical Computer Science,
+                    Embedded Security, Projectmanagement and Softwaredevelopment. I also value teamwork and problem-solving, as many of my projects
+                    have required collaboration with peers to tackle complex challenges.                    
+                </p>
+                <a href="documents/modulhandbuch_ai_master_2020.pdf">Contents of Studying [ENG]>></a>
+                <p>
+                    My 5 Electives where:
+                    <ul>
+                         <li>Machine Learning</li>
+                         <li>Cybersecurity</li>
+                         <li>Modern Internet Technologies</li>
+                         <li>Hardwaredesign with VHDL</li>
+                         <li>C++ Programming</li>
+                    </ul>
+                </p>
+                </div>
+            </details>
+            <details class="cv_details">
+                <summary>Applied Computer Science B.Eng. <p style="text-align: right;">Oktober 2019 - May 2024</p></summary>
+                <div class="cv_details_content">
+                    <p>
+                        I completed my bachelor's degree in Applied Computer Science (Embedded Systems). During this program, I developed a strong foundation 
+                        in higher maths, electronics, programming, system design.
+
+                        My coursework covered a variety of topics, including for example Digital Signal Processing, Hardware Design, Microprocessor Systems, 
+                        control theory and database systems. In addition, I had the opportunity to work on several 
+                        hands-on projects, such as Simulation of a sphere on a functional surface in Matlab, setting up a PXE Boot Server on a Virtual Machine and building and 
+                        implementing an self-balanced Robot alike the inverted pendelum.
+
+                        For my bachelor’s thesis, I focused on designing and implementig an PCIe Interface for data transfer between a PolarFire FPGA and the NVIDIA Jetson
+                        , which allowed me to apply the theoretical knowledge I gained 
+                        during my studies to solve a practical problem.
+
+                        Overall, the program provided me with the technical skills, analytical abilities, and teamwork experience needed 
+                        for a professional career.
+                    </p>
+                    <a href="documents/modulhandbuch_ai_bachelor.pdf">Contents of Studying [GER]>></a>
+                    <p>
+                        <ul>
+                            <li>Startblock - Starting A Business</li>
+                            <li>Maths with Matlab</li>
+                            <li>Java Programming</li>
+                            <li>Automotive C Programming</li>
+                        </ul>
+                    </p>
+                </div>
+            </details>
+        </section>
+
+        <h2>Experience</h2>
+        <section class="cv_section">
+            <details class="cv_details">
+                <summary> </summary>
+                    <div class="cv_details_content">
+
+                    </div>
+            </details>
+        </section>
+        
     </main>
 </body>
 </html>
